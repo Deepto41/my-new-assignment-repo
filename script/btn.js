@@ -7,8 +7,10 @@ alert('Board updated successfully');
 
 const task = document.getElementById('task-assign').innerText;
 const convertedTask = parseInt(task);
-
 let sum = convertedTask - 1 ;
+if(convertedTask === 1){
+    alert('congrates!!You have completed all the task')}
+else{};
 document.getElementById('task-assign').innerText =sum;
 
 const navBtn =document.getElementById('nav-btn').innerText;
@@ -32,6 +34,10 @@ document.getElementById('btn-2').addEventListener('click', function(event){
     const task = document.getElementById('task-assign').innerText;
 const convertedTask = parseInt(task);
 let sum = convertedTask - 1 ;
+
+if(convertedTask === 1){
+    alert('congrates!!You have completed all the task')}
+else{};
 
 document.getElementById('task-assign').innerText =sum;
 
@@ -58,6 +64,10 @@ document.getElementById('btn-3').addEventListener('click', function(event){
 const convertedTask = parseInt(task);
 let sum = convertedTask - 1 ;
 
+if(convertedTask === 1){
+    alert('congrates!!You have completed all the task')}
+else{};
+
 document.getElementById('task-assign').innerText =sum;
 
 const navBtn =document.getElementById('nav-btn').innerText;
@@ -80,6 +90,10 @@ document.getElementById('btn-4').addEventListener('click', function(event){
     const task = document.getElementById('task-assign').innerText;
 const convertedTask = parseInt(task);
 let sum = convertedTask - 1 ;
+
+if(convertedTask === 1){
+    alert('congrates!!You have completed all the task')}
+else{};
 
 document.getElementById('task-assign').innerText =sum;
 
@@ -104,6 +118,10 @@ document.getElementById('btn-5').addEventListener('click', function(event){
 const convertedTask = parseInt(task);
 let sum = convertedTask - 1 ;
 
+if(convertedTask === 1){
+    alert('congrates!!You have completed all the task')}
+else{};
+
 document.getElementById('task-assign').innerText =sum;
 
 const navBtn =document.getElementById('nav-btn').innerText;
@@ -123,11 +141,16 @@ document.getElementById('btn-5').style.backgroundColor ='gray'
 document.getElementById('btn-6').addEventListener('click', function(event){
     event.preventDefault();
     alert('Board updated successfully');
-    alert('congrates!!You have completed all the task')
+    // alert('congrates!!You have completed all the task')
   
+    
     const task = document.getElementById('task-assign').innerText;
 const convertedTask = parseInt(task);
 let sum = convertedTask - 1 ;
+if(convertedTask === 1){
+    alert('congrates!!You have completed all the task')}
+else{};
+
 
 document.getElementById('task-assign').innerText =sum;
 
