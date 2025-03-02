@@ -2,7 +2,7 @@
 
 document.getElementById('btn-1').addEventListener('click', function(event){
 event.preventDefault();
-alert('Board updated successfully');
+alert('Board updated successfully'); 
 
 
 const task = document.getElementById('task-assign').innerText;
