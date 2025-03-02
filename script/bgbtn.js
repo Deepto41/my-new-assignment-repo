@@ -1,15 +1,19 @@
-function changeBg(){
-    document.body.style.backgroundColor ='purple'
-}
+// color-btn//
+    const colors = ['red','green','purple','yellow','blue','green'];
+    let i = 0;
+    function changeBg(){
+        document.body.style.backgroundColor =colors[i];
+        i =(i +1 ) % colors.length;
+    }
 
-// activity//
-// document.getElementById('activity-btn').style.display = 'none'
 
-// document.getElementById('btn-1').addEventListener('click', function(event){
-//     event.preventDefault()
-// }
-  
-// )
+    function displayDate() {
+        const today = new Date('mar 02 2025');
+        const formattedDate = today.toDateString();
+        document.getElementById("date").innerText = formattedDate;
+    }
+
+
 
 // activity//
 document.getElementById('activity-1').style.display = 'none'
