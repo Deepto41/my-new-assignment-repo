@@ -1,3 +1,10 @@
 function changeBg(){
-    document.getElementById('color-bg').style.backgroundColor = 'red'
+
+document.getElementById('color-bg').addEventListener('click',function(){
+    body.style.backgroundColor ="red";
+}
+
+
+)
+    
 }
