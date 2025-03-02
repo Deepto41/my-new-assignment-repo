@@ -141,12 +141,11 @@ document.getElementById('btn-5').style.backgroundColor ='gray'
 document.getElementById('btn-6').addEventListener('click', function(event){
     event.preventDefault();
     alert('Board updated successfully');
-    // alert('congrates!!You have completed all the task')
-  
     
     const task = document.getElementById('task-assign').innerText;
 const convertedTask = parseInt(task);
 let sum = convertedTask - 1 ;
+    
 if(convertedTask === 1){
     alert('congrates!!You have completed all the task')}
 else{};
