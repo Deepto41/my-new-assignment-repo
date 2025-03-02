@@ -9,7 +9,7 @@ const task = document.getElementById('task-assign').innerText;
 const convertedTask = parseInt(task);
 let sum = convertedTask - 1 ;
 if(convertedTask === 1){
-    alert('congrates!!You have completed all the task')}
+    alert('congrates!!You have completed all the current task')}
 else{};
 document.getElementById('task-assign').innerText =sum;
 
@@ -36,7 +36,7 @@ const convertedTask = parseInt(task);
 let sum = convertedTask - 1 ;
 
 if(convertedTask === 1){
-    alert('congrates!!You have completed all the task')}
+    alert('congrates!!You have completed all the current task')}
 else{};
 
 document.getElementById('task-assign').innerText =sum;
@@ -65,7 +65,7 @@ const convertedTask = parseInt(task);
 let sum = convertedTask - 1 ;
 
 if(convertedTask === 1){
-    alert('congrates!!You have completed all the task')}
+    alert('congrates!!You have completed all the current task')}
 else{};
 
 document.getElementById('task-assign').innerText =sum;
@@ -92,7 +92,7 @@ const convertedTask = parseInt(task);
 let sum = convertedTask - 1 ;
 
 if(convertedTask === 1){
-    alert('congrates!!You have completed all the task')}
+    alert('congrates!!You have completed all the current task')}
 else{};
 
 document.getElementById('task-assign').innerText =sum;
@@ -119,7 +119,7 @@ const convertedTask = parseInt(task);
 let sum = convertedTask - 1 ;
 
 if(convertedTask === 1){
-    alert('congrates!!You have completed all the task')}
+    alert('congrates!!You have completed all the current task')}
 else{};
 
 document.getElementById('task-assign').innerText =sum;
@@ -147,7 +147,7 @@ const convertedTask = parseInt(task);
 let sum = convertedTask - 1 ;
     
 if(convertedTask === 1){
-    alert('congrates!!You have completed all the task')}
+    alert('congrates!!You have completed all the current task')}
 else{};
 
 
