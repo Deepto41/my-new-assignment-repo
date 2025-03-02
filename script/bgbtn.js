@@ -7,11 +7,7 @@
     }
 
 
-    function displayDate() {
-        const today = new Date('mar 02 2025');
-        const formattedDate = today.toDateString();
-        document.getElementById("date").innerText = formattedDate;
-    }
+
 
 
 
