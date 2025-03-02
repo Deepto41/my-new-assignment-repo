@@ -27,6 +27,7 @@ document.getElementById('btn-1').style.backgroundColor ='gray'
 document.getElementById('btn-2').addEventListener('click', function(event){
     event.preventDefault();
     alert('Board updated successfully');
+ 
    
     const task = document.getElementById('task-assign').innerText;
 const convertedTask = parseInt(task);
@@ -41,6 +42,8 @@ document.getElementById('nav-btn').innerText = sum2;
  
 document.getElementById('btn-2').disabled =true;
 document.getElementById('btn-2').style.backgroundColor ='gray'
+
+
 
 
 }
