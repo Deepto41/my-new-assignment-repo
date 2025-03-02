@@ -165,3 +165,9 @@ document.getElementById('btn-6').style.backgroundColor ='gray'
 }
 )
 
+// date
+function dateTime(){
+
+    let new =newDate();
+    document.getElementById('date').innerText =new.toLocaleString();
+}
