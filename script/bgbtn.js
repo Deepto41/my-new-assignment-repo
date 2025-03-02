@@ -61,6 +61,12 @@ document.getElementById('btn-6').addEventListener('click', function(event){
 
 // clear history btn//
 document.getElementById('clear-btn').addEventListener('click', function(){
+document.getElementById('activity-1').style.display = 'none'
+document.getElementById('activity-2').style.display = 'none'
+document.getElementById('activity-3').style.display = 'none'
+document.getElementById('activity-4').style.display = 'none'
+document.getElementById('activity-5').style.display = 'none'
+document.getElementById('activity-6').style.display = 'none'
  
 }
 )
